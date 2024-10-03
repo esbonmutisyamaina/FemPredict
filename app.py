@@ -88,6 +88,13 @@ if st.button("Predict Gender"):
         st.warning("Please calculate your cycle first to get the ovulation date.")
 
 
+hide_github_icon = """
+<style>
+[data-testid="stToolbar"] {visibility: hidden;}
+</style>
+"""
+st.markdown(hide_github_icon, unsafe_allow_html=True)
+
 # Closing remarks
 st.markdown("---")  # This adds a horizontal line for separation
 st.markdown("Based on biological data and mathematical estimations.")
