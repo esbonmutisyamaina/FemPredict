@@ -1,0 +1,8 @@
+[server]
+enableCORS = false
+
+[theme]
+base="light" # or "dark", depending on your preference
+
+[global]
+hide_banner = true
