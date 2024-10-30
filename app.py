@@ -41,7 +41,7 @@ class ShettlesGenderPrediction:
 
 
 # Streamlit app layout
-st.title("Esbon Period Tracker & Pregnancy Gender Predictor (FEMPREDICT)")
+st.title("Period Tracker & Pregnancy Gender Predictor (FEMPREDICT)")
 st.write("SHETTLES METHOD")
 
 # Initialize session state to store ovulation_date
